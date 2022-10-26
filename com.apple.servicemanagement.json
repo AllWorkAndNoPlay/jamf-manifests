@@ -19,29 +19,19 @@
                     "RuleType": {
                         "title": "RuleType",
                         "description": "Required. Type of Rule being added.",
-                        "type": "string"
-                         "enum": [
-                			"TeamIdentifier",
-                			"BundleIdentifier",
-                			"Label",
-                			"BundleIdentifierPrefix",
-                			"LabelPrefix"
-            			],
+                        "type": "string",
+                        "enum": [ "TeamIdentifier", "BundleIdentifier", "Label", "BundleIdentifierPrefix", "LabelPrefix" ],
             			"options": {
-               	 			"enum_titles": [
-                    		"TeamIdentifier",
-                    		"BundleIdentifier",
-                    		"Label",
-                    		"BundleIdentifierPrefix",
-                    		"LabelPrefix"	
-                		]
-                    },
+               	 			"enum_titles": [ "TeamIdentifier",  "BundleIdentifier", "Label", "BundleIdentifierPrefix", "LabelPrefix" ]
+                		}
+					},
 					"RuleValue": {
-                        "title": "RuleValue",
-                        "description": "Required. Rule Value of app allowed for Background Task Management",
-                        "type": "string"
-                    },
-			"required": ["RuleType", "RuleValue"]
+						"title": "RuleValue",
+						"description": "Required. Rule Value of app allowed for Background Task Management",
+						"type": "string"
+					},
+					"required": ["RuleType", "RuleValue"]
+            	}
             }
         }
     }
