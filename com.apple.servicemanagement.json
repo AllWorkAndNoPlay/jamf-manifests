@@ -2,7 +2,7 @@
     "title": "macOS Background Task Management (com.apple.servicemanagement)",
     "description": "This payload specifies the macOS Background Task to enforced for apps, using their bundle identifiers. It is supported on macOS 13.0 and later.",
     "properties": {
-        "NotificationSettings": {
+        "Rules": {
             "title": "Rules",
             "description": "Specifies the rules to allow specific apps to run in Background Task Management, using their bundle identifiers. It is supported on macOS 13.0 and later.",
             "property_order": 10,
