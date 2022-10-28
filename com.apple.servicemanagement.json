@@ -30,7 +30,7 @@
 						"description": "Required. Rule Value of app allowed for Background Task Management",
 						"type": "string"
 					}
-            	}
+				}
             },
 			"required": ["RuleType", "RuleValue"]
         }
